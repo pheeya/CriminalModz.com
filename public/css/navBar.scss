@@ -5,6 +5,7 @@
 {
     position: absolute;
     width:100%;
+  
 }
 ul 
 {
@@ -15,7 +16,6 @@ ul
    padding:0;
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
-
    box-shadow:0 0 3px black;
    box-sizing: border-box;
    
@@ -26,12 +26,9 @@ ul
     margin:0 auto;
     color: #282828;
   padding:22px 25px;
-  margin-bottom:1.5px;
-  padding-bottom:15px;
   font-size:16px;
   transition:all .4s;
   font-weight: 600;
-  
 cursor:pointer;
 
     .navLogo 

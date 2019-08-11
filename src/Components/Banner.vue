@@ -2,19 +2,15 @@
 <div class="main">
     <div class="container">
 <div class="tile">
-<h2>CriminalModz</h2>
+
 <h1>GTA Online Modded Services</h1>
-<img id="stars" width="800" height="150" 
-src="https://i2.wp.com/criminalmodz.com/wp-content/uploads/2019/04/Trustpilot_ratings_5star-RGB.png?fit=800%2C150&amp;ssl=1" class="elementor-animation-grow attachment-large size-large jetpack-lazy-image jetpack-lazy-image--handled" alt="CriminalModz reviews on Trustpilot" srcset="https://i2.wp.com/criminalmodz.com/wp-content/uploads/2019/04/Trustpilot_ratings_5star-RGB.png?w=1000&amp;ssl=1 1000w, https://i2.wp.com/criminalmodz.com/wp-content/uploads/2019/04/Trustpilot_ratings_5star-RGB.png?resize=300%2C56&amp;ssl=1 300w, https://i2.wp.com/criminalmodz.com/wp-content/uploads/2019/04/Trustpilot_ratings_5star-RGB.png?resize=768%2C144&amp;ssl=1 768w"
- data-lazy-loaded="1" sizes="(max-width: 800px) 100vw, 800px">
 <p>CriminalModz is a Trusted & Reliable GTA Online Mods Provider. 
 We offer modifications such as GTA V Money, Level, Unlocks, Bundles, etc. for PC, PS4 & Xbox One! Enjoy Full Money-Back Guarantee, Anti-Ban Warranty & Anti-Modder Protection</p>
-<button>CONTACT US</button>
+<button>Support</button> <button id='reviews'>View Reviews</button>
 
 </div>
 <div id="gangTile" class="tile">
-<img id="gangMember" width="772" height="595" src="https://i0.wp.com/criminalmodz.com/wp-content/uploads/2019/07/Untitled-2-1.png?fit=772%2C595&amp;ssl=1" class="attachment-large size-large jetpack-lazy-image jetpack-lazy-image--handled" alt="GTA 5 modded accounts" srcset="https://i0.wp.com/criminalmodz.com/wp-content/uploads/2019/07/Untitled-2-1.png?w=772&amp;ssl=1 772w, https://i0.wp.com/criminalmodz.com/wp-content/uploads/2019/07/Untitled-2-1.png?resize=300%2C231&amp;ssl=1 300w, https://i0.wp.com/criminalmodz.com/wp-content/uploads/2019/07/Untitled-2-1.png?resize=768%2C592&amp;ssl=1 768w" data-lazy-loaded="1" sizes="(max-width: 772px) 100vw, 772px">
-
+<img id="gangMember" width="336" height="477" src="https://i0.wp.com/criminalmodz.com/wp-content/uploads/2019/08/368-3682345_grand-theft-auto-v-png-hd-gta-5.png?fit=336%2C477&amp;ssl=1" class="attachment-full size-full jetpack-lazy-image jetpack-lazy-image--handled" alt="" srcset="https://i0.wp.com/criminalmodz.com/wp-content/uploads/2019/08/368-3682345_grand-theft-auto-v-png-hd-gta-5.png?w=336&amp;ssl=1 336w, https://i0.wp.com/criminalmodz.com/wp-content/uploads/2019/08/368-3682345_grand-theft-auto-v-png-hd-gta-5.png?resize=211%2C300&amp;ssl=1 211w" data-lazy-loaded="1" sizes="(max-width: 336px) 100vw, 336px">
 </div>
 
     </div>
@@ -37,21 +33,24 @@ export default {
 {
      box-sizing: border-box;
  max-width:500px;
- padding:110px 10px 0 25px;
+ 
  font-size:18px;
 }
 #gangTile 
 {
-    padding-top:40px;
+   
     padding-right:0;
+    text-align:Center;
+    margin:auto;
     
 }
+
 #gangMember 
 {
-      width: 100%;
+      width: 200px;
     filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0);
-        vertical-align: middle;
+        vertical-align: bottom;
     display: inline-block;
     height: auto;
     max-width: 100%;
@@ -60,21 +59,28 @@ export default {
 }
 button 
 {
-    padding: 20px 45px 20px 45px;
+   padding:13px 18px;
     border-radius:5px;
     border:0;
-    background-color:white;
+    background-color:rgb(221, 3, 3);
     font-size:15px;
     font-weight:600;
-    color:rgb(161, 4, 4);
-    margin:5px 0;
+    color:rgb(255, 255, 255);
+    margin:15px 0;
     transition:all .4s;
     cursor: pointer;
 }
-button:hover 
+#reviews 
+{
+    background-color:white;
+    color:rgb(37, 37, 37);
+    box-shadow:2px 2px 1px rgba(71, 71, 71, 0.185);
+    margin-left:10px;
+}
+button:hover, #reviews:hover 
 {
     color:white;
-    background-color:rgb(156, 81, 81);
+    background-color:rgb(51, 51, 51);
 }
 
 #stars 
@@ -93,28 +99,19 @@ button:hover
 
 .main 
 {
-        padding: 70px 0px 100px 175px;
-color:white;
- height:100vh;
+        
+        padding: 3vh 0 10vh 9vw;
+color:rgb(0, 0, 0);
      box-sizing: border-box;
 }
 
-h2,h1 
-{
-    margin:0;
-    padding:0;
-}
-h2 
-{
-    margin-bottom:5px;
-    font-size:22px;
-    color:rgb(204, 156, 156);
-}
 h1 
 {
     margin:15px 0;
-    line-height:1.0;
-    font-size:40px;
+    line-height:1.5;
+    font-size:33px;
+    font-weight:500;
+    
 }
 .container 
 {
@@ -126,6 +123,20 @@ p
 {
     font-size:16px;
     line-height:1.5;
+    color:rgb(99, 99, 99);
 }
 
+@media (max-width: 800px){
+    #gangTile{
+        display:none;
+    }
+    .tile 
+    {
+        text-align:center;
+    }
+    .main 
+    {
+        padding:0;
+    }
+}
 </style>
