@@ -48,6 +48,8 @@
     link="http://www.google.com/"
     >
     </cmp-info>
+
+    <cmp-choose></cmp-choose>
 </div>
   </main>
 </template>
@@ -56,11 +58,13 @@
 import flex from "../Components/flex"
 import banner from "../Components/Banner"
 import info from "../Components/infoBlock"
+import choose from "../Components/chooseUs"
 export default {
   components:{
     cmpBanner:banner,
     cmpFlex:flex,
-    cmpInfo:info
+    cmpInfo:info,
+    cmpChoose:choose
   }
 }
 </script>

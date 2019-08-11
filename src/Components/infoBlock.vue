@@ -47,7 +47,7 @@ color:rgb(92, 92, 92);
 .infoTile 
 {
     text-align:center;
-    max-width:240px;
+    max-width:255px;
     padding:10px;
     box-sizing: border-box;
     background-color:white;
@@ -58,7 +58,8 @@ color:rgb(92, 92, 92);
 .infoMain 
 {
     
-    padding:5px;
+   padding:50px 0px;
+      margin:5px;
     display:inline-block;
     vertical-align: top;
 }

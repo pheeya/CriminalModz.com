@@ -110,8 +110,7 @@ h1
     margin:15px 0;
     line-height:1.5;
     font-size:33px;
-    font-weight:500;
-    
+    font-weight:600;
 }
 .container 
 {

@@ -3,21 +3,24 @@
 }
 .nav 
 {
-    position: absolute;
-    width:100%;
-  
+   
+    width:99%;
+   
 }
 ul 
 {
    list-style-type:none;
-  
+   position: fixed;
+   z-index: 9999999;
    background-color:white;
    margin:0;
    padding:0;
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
-   box-shadow:0 0 3px black;
+   box-shadow:0 0 5px rgba(39, 39, 39, 0.493);
    box-sizing: border-box;
+   width:99%;
+   margin:auto;
    
    li 
    {
