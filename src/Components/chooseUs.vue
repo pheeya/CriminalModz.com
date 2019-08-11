@@ -1,9 +1,10 @@
 <template>
     <div class="main">
+        <div class="opener">
 <h1>Why People <span>Choose Us</span></h1>
 <p>If you are looking for a trusted and safe Grand Theft
      Auto Online site CriminalModz is the right place for you!</p>
-
+</div>
      <div class="sections">
 <div class="section leftSection">
 <cmp-left></cmp-left>
@@ -33,18 +34,26 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.main 
+.opener 
 {
     background-color:white;
+    padding:20px;
+}
+.main 
+{
+ 
     box-sizing: border-box;
     display:grid;
     padding:20px;
     font-family: 'Montserrat', sans-serif;
+    text-align:center;
 }
 .sections
 {
     display:grid;
     grid-template-columns: 60% 40%;
+    max-width:1200px;
+    margin:auto;
 }
 h1 
 {

@@ -13,8 +13,16 @@
 </template>
 
 <style lang="scss" scoped>
+.flex 
+{
+  background:rgb(255, 255, 255);
+  padding:30px;
+ 
+}
 ul 
 {
+  margin:auto;
+  max-width:1200px;
   list-style-type:none;
   display:flex;
   li {

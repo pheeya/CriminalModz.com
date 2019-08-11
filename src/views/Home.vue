@@ -48,9 +48,9 @@
     link="http://www.google.com/"
     >
     </cmp-info>
-
-    <cmp-choose></cmp-choose>
 </div>
+    <cmp-choose></cmp-choose>
+
   </main>
 </template>
 

@@ -27,7 +27,7 @@ export default {
 <style>
 button 
 {
-    background-color:rgb(243, 243, 243);
+    background-color:rgb(255, 255, 255);
     padding:10px;
     border:0;
     font-size:18px;
@@ -47,20 +47,20 @@ color:rgb(92, 92, 92);
 .infoTile 
 {
     text-align:center;
-    max-width:255px;
+    max-width:330px;
     padding:10px;
     box-sizing: border-box;
     background-color:white;
-    margin:auto;
+    margin:5px;
     height:400px;
+    border-radius:8px;
 }
 
 .infoMain 
 {
-    
+
    padding:50px 0px;
-      margin:5px;
-    display:inline-block;
+   margin:auto;
     vertical-align: top;
 }
 </style>

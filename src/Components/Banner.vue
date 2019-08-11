@@ -1,7 +1,7 @@
 <template>
 <div class="main">
     <div class="container">
-<div class="tile">
+<div class="tile left">
 
 <h1>GTA Online Modded Services</h1>
 <p>CriminalModz is a Trusted & Reliable GTA Online Mods Provider. 
@@ -28,13 +28,28 @@ export default {
 }
 </script>
 <style scoped>
-
+.main 
+{
+  
+}
+.left 
+{
+    background-color:white;
+    padding:0 15px;
+    max-height:300px;
+}
+@media (min-width:2000px){
+    .left{
+        margin-top:4vw;
+    }
+}
 .tile 
 {
      box-sizing: border-box;
- max-width:500px;
- 
+ max-width:550px;
+ border-radius:8px;
  font-size:18px;
+   
 }
 #gangTile 
 {
@@ -42,20 +57,21 @@ export default {
     padding-right:0;
     text-align:Center;
     margin:auto;
-    
+
 }
 
 #gangMember 
 {
-      width: 200px;
+     width:13vw;
     filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0);
-        vertical-align: bottom;
+        vertical-align: top;
     display: inline-block;
     height: auto;
     max-width: 100%;
     border: none;
     text-align: center;
+         
 }
 button 
 {
@@ -83,24 +99,15 @@ button:hover, #reviews:hover
     background-color:rgb(51, 51, 51);
 }
 
-#stars 
-{
-    vertical-align: middle;
-    display: inline-block;
-        height: auto;
-    max-width: 100%;
-    border: none;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-        width:165px;
-}
+
 
 .main 
-{
-        
-        padding: 3vh 0 10vh 9vw;
+{  
+    padding:0;
+    max-height:550px;
+    max-width:1200px;
+    margin:auto;
+        padding:25px;
 color:rgb(0, 0, 0);
      box-sizing: border-box;
 }

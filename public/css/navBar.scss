@@ -3,12 +3,12 @@
 }
 .nav 
 {
-   
-    width:99%;
-   
+   background:red;
+text-align:center;
 }
 ul 
 {
+    text-align:center;
    list-style-type:none;
    position: fixed;
    z-index: 9999999;
@@ -19,7 +19,9 @@ ul
    border-bottom-right-radius: 15px;
    box-shadow:0 0 5px rgba(39, 39, 39, 0.493);
    box-sizing: border-box;
-   width:99%;
+   left:0;
+   right:0;
+   max-width:1300px;
    margin:auto;
    
    li 

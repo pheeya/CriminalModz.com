@@ -24,6 +24,9 @@ img
 {
     text-align: left;
     max-width:350px;
+  background-color:white;
+  margin:15px;
+  border-radius:8px;
 }
 h4 
 {
